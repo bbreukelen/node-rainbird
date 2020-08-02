@@ -12,9 +12,10 @@ All credits for reverse engineering the rainbird api go to him.*
 
 ----
 
-This module communicates directly with the IP Address of the WiFi module it does NOT support the cloud.
-You can start/stop the irrigation, get the currently active zone, set the watering delay, etc.
-The class is promise based.
+You can start/stop the irrigation, get the currently active zone, set the watering delay, etc.  
+This module communicates directly with the IP Address of the WiFi module it does NOT support the cloud.  
+The library is Promise based.
+
 
 ## Installation
 ```sh
@@ -40,7 +41,8 @@ rainbird
 
 ## Author
 Created by Boudewijn van Breukelen @ Future Software  
-Please consider donating if you use this code in your project. Donating a Euro will make my day :-P   
+Please consider donating if you use this code in your project.  
+Donating a Euro will make my day :-P   
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/bbreukelen)  
 
 ## API
