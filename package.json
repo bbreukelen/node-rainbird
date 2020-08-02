@@ -1,0 +1,26 @@
+{
+  "name": "node-rainbird",
+  "description": "Node.js library for interacting with WiFi LNK module of the Rain Bird Irrigation system",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Boudewijn van Breukelen @ Future Software",
+  "license": "GNU",
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "node-fetch": "^2.6.0",
+    "text-encoder": "0.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbreukelen/node-rainbird.git"
+  },
+  "keywords": ["rainbird", "ESP-RZXe", "ESP", "irrigation", "node"],
+  "bugs": {
+    "url": "https://github.com/bbreukelen/node-rainbird/issues"
+  },
+  "homepage": "https://github.com/bbreukelen/node-rainbird#readme"
+}
