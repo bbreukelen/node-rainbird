@@ -1,7 +1,7 @@
 {
   "name": "node-rainbird",
   "description": "Node.js library for interacting with WiFi LNK module of the Rain Bird Irrigation system",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "types": "types/rainbird.d.ts",
   "scripts": {

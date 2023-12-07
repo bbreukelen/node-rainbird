@@ -72,4 +72,4 @@ interface CurrentStationsActiveResponse {
     activeZones: number[];
 }
 
-export = RainBirdClass;
+export default RainBirdClass;
