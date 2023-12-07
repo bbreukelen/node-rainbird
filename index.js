@@ -92,7 +92,7 @@ class RainBirdClass {
         Manually start program x. Not supported on ESP-RZXe but might work on other controllers
      */
     startProgram(programNr) { return request(this, "ManuallyRunProgramRequest", decToHex(programNr)); }
-};
+}
 
 function log(rb, msg) {
     rb.debug && console.log('DEBUG: ' + (typeof msg === 'object' ? JSON.stringify(msg) : msg));

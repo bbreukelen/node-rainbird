@@ -1,8 +1,9 @@
 {
   "name": "node-rainbird",
   "description": "Node.js library for interacting with WiFi LNK module of the Rain Bird Irrigation system",
-  "version": "0.1.1",
+  "version": "2.0.0",
   "main": "index.js",
+  "types": "types/rainbird.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,9 @@
     "node-fetch": "^2.6.0",
     "text-encoder": "0.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bbreukelen/node-rainbird.git"
